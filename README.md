@@ -1,5 +1,4 @@
-# Password-Components<img width="249" alt="Ekran Resmi 2024-03-27 09 46 14" src="https://github.com/BaranBaranDev/Password-Components/assets/70475454/837a2453-1c3e-4762-97ac-cebb08f459ff">
+<img width="266" alt="Ekran Resmi 2024-03-27 09 45 15" src="https://github.com/BaranBaranDev/Password-Components/assets/70475454/10d2f05b-8e44-4f11-8417-36bfe3954af8">
+<img width="269" alt="Ekran Resmi 2024-03-27 09 45 42" src="https://github.com/BaranBaranDev/Password-Components/assets/70475454/89b3c16b-cf73-45f6-a742-bdcaf6cb6826">
+<img width="249" alt="Ekran Resmi 2024-03-27 09 46 14" src="https://github.com/BaranBaranDev/Password-Components/assets/70475454/a8210243-bb1c-42dd-8433-69a18ad8d2d5">
 
-<img width="269" alt="Ekran Resmi 2024-03-27 09 45 42" src="https://github.com/BaranBaranDev/Password-Components/assets/70475454/b9e64606-13e9-426c-adf5-5da8e154747a">
-
-<img width="266" alt="Ekran Resmi 2024-03-27 09 45 15" src="https://github.com/BaranBaranDev/Password-Components/assets/70475454/491ba646-8bdc-469a-8f98-af20ef04b4d6">
