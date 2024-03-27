@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE0246692BB2799600546299 /* PasswordCriterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0246682BB2799600546299 /* PasswordCriterial.swift */; };
+		BE48E1B52BAC60820029028D /* UIStackView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE48E1B42BAC60820029028D /* UIStackView+Ext.swift */; };
+		BE7C79932BAEF48B00EECC12 /* PasswordCriterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7C79922BAEF48B00EECC12 /* PasswordCriterialView.swift */; };
+		BE7C79972BAF298900EECC12 /* PasswordStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7C79962BAF298900EECC12 /* PasswordStatusView.swift */; };
+		BEA78B7A2BABD4EF00E70524 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA78B792BABD4EF00E70524 /* AppDelegate.swift */; };
+		BEA78B7E2BABD4EF00E70524 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA78B7D2BABD4EF00E70524 /* ViewController.swift */; };
+		BEA78B832BABD4F000E70524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA78B822BABD4F000E70524 /* Assets.xcassets */; };
+		BEA78B862BABD4F000E70524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA78B842BABD4F000E70524 /* LaunchScreen.storyboard */; };
+		BEA78BAC2BABD9F600E70524 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BEA78BAB2BABD9F600E70524 /* SnapKit */; };
+		BEA78BAE2BABD9F600E70524 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = BEA78BAD2BABD9F600E70524 /* SnapKit-Dynamic */; };
+		BEA78BB02BABDA9900E70524 /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA78BAF2BABDA9900E70524 /* PasswordTextField.swift */; };
+		BEA78BB22BABE05500E70524 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA78BB12BABE05500E70524 /* UIView+Ext.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEA78B8D2BABD4F000E70524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEA78B6E2BABD4EF00E70524 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEA78B752BABD4EF00E70524;
+			remoteInfo = "Password-Components";
+		};
+		BEA78B972BABD4F000E70524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEA78B6E2BABD4EF00E70524 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEA78B752BABD4EF00E70524;
+			remoteInfo = "Password-Components";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE0246682BB2799600546299 /* PasswordCriterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCriterial.swift; sourceTree = "<group>"; };
+		BE48E1B42BAC60820029028D /* UIStackView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Ext.swift"; sourceTree = "<group>"; };
+		BE7C79922BAEF48B00EECC12 /* PasswordCriterialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCriterialView.swift; sourceTree = "<group>"; };
+		BE7C79962BAF298900EECC12 /* PasswordStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStatusView.swift; sourceTree = "<group>"; };
+		BEA78B762BABD4EF00E70524 /* Password-Components.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Password-Components.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA78B792BABD4EF00E70524 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEA78B7D2BABD4EF00E70524 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEA78B822BABD4F000E70524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEA78B852BABD4F000E70524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEA78B872BABD4F000E70524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA78B8C2BABD4F000E70524 /* Password-ComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Password-ComponentsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA78B962BABD4F000E70524 /* Password-ComponentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Password-ComponentsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA78BAF2BABDA9900E70524 /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+		BEA78BB12BABE05500E70524 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEA78B732BABD4EF00E70524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA78BAC2BABD9F600E70524 /* SnapKit in Frameworks */,
+				BEA78BAE2BABD9F600E70524 /* SnapKit-Dynamic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA78B892BABD4F000E70524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA78B932BABD4F000E70524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE48E1B32BAC60640029028D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BEA78BB12BABE05500E70524 /* UIView+Ext.swift */,
+				BE48E1B42BAC60820029028D /* UIStackView+Ext.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		BE7C79912BAEF45200EECC12 /* PasswordStatusView */ = {
+			isa = PBXGroup;
+			children = (
+				BE7C79922BAEF48B00EECC12 /* PasswordCriterialView.swift */,
+				BE7C79962BAF298900EECC12 /* PasswordStatusView.swift */,
+				BE0246682BB2799600546299 /* PasswordCriterial.swift */,
+			);
+			path = PasswordStatusView;
+			sourceTree = "<group>";
+		};
+		BEA78B6D2BABD4EF00E70524 = {
+			isa = PBXGroup;
+			children = (
+				BEA78B782BABD4EF00E70524 /* Password-Components */,
+				BEA78B772BABD4EF00E70524 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEA78B772BABD4EF00E70524 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEA78B762BABD4EF00E70524 /* Password-Components.app */,
+				BEA78B8C2BABD4F000E70524 /* Password-ComponentsTests.xctest */,
+				BEA78B962BABD4F000E70524 /* Password-ComponentsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEA78B782BABD4EF00E70524 /* Password-Components */ = {
+			isa = PBXGroup;
+			children = (
+				BEA78B7D2BABD4EF00E70524 /* ViewController.swift */,
+				BEA78BAF2BABDA9900E70524 /* PasswordTextField.swift */,
+				BE7C79912BAEF45200EECC12 /* PasswordStatusView */,
+				BE48E1B32BAC60640029028D /* Extensions */,
+				BEA78BA92BABD88B00E70524 /* Files */,
+			);
+			path = "Password-Components";
+			sourceTree = "<group>";
+		};
+		BEA78BA92BABD88B00E70524 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEA78B792BABD4EF00E70524 /* AppDelegate.swift */,
+				BEA78B822BABD4F000E70524 /* Assets.xcassets */,
+				BEA78B842BABD4F000E70524 /* LaunchScreen.storyboard */,
+				BEA78B872BABD4F000E70524 /* Info.plist */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEA78B752BABD4EF00E70524 /* Password-Components */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA78BA02BABD4F000E70524 /* Build configuration list for PBXNativeTarget "Password-Components" */;
+			buildPhases = (
+				BEA78B722BABD4EF00E70524 /* Sources */,
+				BEA78B732BABD4EF00E70524 /* Frameworks */,
+				BEA78B742BABD4EF00E70524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Password-Components";
+			packageProductDependencies = (
+				BEA78BAB2BABD9F600E70524 /* SnapKit */,
+				BEA78BAD2BABD9F600E70524 /* SnapKit-Dynamic */,
+			);
+			productName = "Password-Components";
+			productReference = BEA78B762BABD4EF00E70524 /* Password-Components.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEA78B8B2BABD4F000E70524 /* Password-ComponentsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA78BA32BABD4F000E70524 /* Build configuration list for PBXNativeTarget "Password-ComponentsTests" */;
+			buildPhases = (
+				BEA78B882BABD4F000E70524 /* Sources */,
+				BEA78B892BABD4F000E70524 /* Frameworks */,
+				BEA78B8A2BABD4F000E70524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEA78B8E2BABD4F000E70524 /* PBXTargetDependency */,
+			);
+			name = "Password-ComponentsTests";
+			productName = "Password-ComponentsTests";
+			productReference = BEA78B8C2BABD4F000E70524 /* Password-ComponentsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEA78B952BABD4F000E70524 /* Password-ComponentsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA78BA62BABD4F000E70524 /* Build configuration list for PBXNativeTarget "Password-ComponentsUITests" */;
+			buildPhases = (
+				BEA78B922BABD4F000E70524 /* Sources */,
+				BEA78B932BABD4F000E70524 /* Frameworks */,
+				BEA78B942BABD4F000E70524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEA78B982BABD4F000E70524 /* PBXTargetDependency */,
+			);
+			name = "Password-ComponentsUITests";
+			productName = "Password-ComponentsUITests";
+			productReference = BEA78B962BABD4F000E70524 /* Password-ComponentsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEA78B6E2BABD4EF00E70524 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BEA78B752BABD4EF00E70524 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					BEA78B8B2BABD4F000E70524 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BEA78B752BABD4EF00E70524;
+					};
+					BEA78B952BABD4F000E70524 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BEA78B752BABD4EF00E70524;
+					};
+				};
+			};
+			buildConfigurationList = BEA78B712BABD4EF00E70524 /* Build configuration list for PBXProject "Password-Components" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEA78B6D2BABD4EF00E70524;
+			packageReferences = (
+				BEA78BAA2BABD9BE00E70524 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = BEA78B772BABD4EF00E70524 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEA78B752BABD4EF00E70524 /* Password-Components */,
+				BEA78B8B2BABD4F000E70524 /* Password-ComponentsTests */,
+				BEA78B952BABD4F000E70524 /* Password-ComponentsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEA78B742BABD4EF00E70524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA78B862BABD4F000E70524 /* LaunchScreen.storyboard in Resources */,
+				BEA78B832BABD4F000E70524 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA78B8A2BABD4F000E70524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA78B942BABD4F000E70524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEA78B722BABD4EF00E70524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA78BB22BABE05500E70524 /* UIView+Ext.swift in Sources */,
+				BE7C79972BAF298900EECC12 /* PasswordStatusView.swift in Sources */,
+				BE48E1B52BAC60820029028D /* UIStackView+Ext.swift in Sources */,
+				BE0246692BB2799600546299 /* PasswordCriterial.swift in Sources */,
+				BEA78B7E2BABD4EF00E70524 /* ViewController.swift in Sources */,
+				BEA78B7A2BABD4EF00E70524 /* AppDelegate.swift in Sources */,
+				BEA78BB02BABDA9900E70524 /* PasswordTextField.swift in Sources */,
+				BE7C79932BAEF48B00EECC12 /* PasswordCriterialView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA78B882BABD4F000E70524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA78B922BABD4F000E70524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEA78B8E2BABD4F000E70524 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEA78B752BABD4EF00E70524 /* Password-Components */;
+			targetProxy = BEA78B8D2BABD4F000E70524 /* PBXContainerItemProxy */;
+		};
+		BEA78B982BABD4F000E70524 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEA78B752BABD4EF00E70524 /* Password-Components */;
+			targetProxy = BEA78B972BABD4F000E70524 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEA78B842BABD4F000E70524 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA78B852BABD4F000E70524 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEA78B9E2BABD4F000E70524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEA78B9F2BABD4F000E70524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEA78BA12BABD4F000E70524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N2C3RSUH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Password-Components/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdevbaran.Password-Components";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEA78BA22BABD4F000E70524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N2C3RSUH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Password-Components/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdevbaran.Password-Components";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEA78BA42BABD4F000E70524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N2C3RSUH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdevbaran.Password-ComponentsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Password-Components.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Password-Components";
+			};
+			name = Debug;
+		};
+		BEA78BA52BABD4F000E70524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N2C3RSUH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdevbaran.Password-ComponentsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Password-Components.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Password-Components";
+			};
+			name = Release;
+		};
+		BEA78BA72BABD4F000E70524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N2C3RSUH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdevbaran.Password-ComponentsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Password-Components";
+			};
+			name = Debug;
+		};
+		BEA78BA82BABD4F000E70524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N2C3RSUH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdevbaran.Password-ComponentsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Password-Components";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEA78B712BABD4EF00E70524 /* Build configuration list for PBXProject "Password-Components" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA78B9E2BABD4F000E70524 /* Debug */,
+				BEA78B9F2BABD4F000E70524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA78BA02BABD4F000E70524 /* Build configuration list for PBXNativeTarget "Password-Components" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA78BA12BABD4F000E70524 /* Debug */,
+				BEA78BA22BABD4F000E70524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA78BA32BABD4F000E70524 /* Build configuration list for PBXNativeTarget "Password-ComponentsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA78BA42BABD4F000E70524 /* Debug */,
+				BEA78BA52BABD4F000E70524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA78BA62BABD4F000E70524 /* Build configuration list for PBXNativeTarget "Password-ComponentsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA78BA72BABD4F000E70524 /* Debug */,
+				BEA78BA82BABD4F000E70524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BEA78BAA2BABD9BE00E70524 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BEA78BAB2BABD9F600E70524 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BEA78BAA2BABD9BE00E70524 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		BEA78BAD2BABD9F600E70524 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BEA78BAA2BABD9BE00E70524 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BEA78B6E2BABD4EF00E70524 /* Project object */;
+}
